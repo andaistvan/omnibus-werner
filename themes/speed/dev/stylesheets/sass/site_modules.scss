@@ -1,27 +1,112 @@
-// header
-.sticky-container{
-   width: 100%;
-}
-
-.sticky{
-   width: 100%;
-}
-
-.header{
-   width: 100%;
-}
-
-// footer
-
-// layouts
-.guide{
-   border: 1px solid $temp-blue;
+.site-content{
+   margin-top: -15px;
 }
 
 .clear{
    clear: both;
 }
 
+.guide{
+   border: 1px solid $temp-blue;
+}
+
+.main-container{
+   width: 90%;
+   max-width: 1000px;
+   margin: 0 auto;
+   display: table;
+}
+// *************************
+// header
+// *************************
+header#header{
+   width: 100%;
+   position: fixed;
+   z-index: 999;
+   background: white;
+   height: 78px;
+}
+
+.site-branding{
+   display: inline-block;
+   margin: 25px 0 0 0;
+}
+
+p.site-title{
+   text-align: left;
+   a{
+      font-weight: 500;
+      color: $maincolor;
+      text-transform: capitalize;
+      font-size: 30px;
+      span{
+         color: $text;
+      }
+   }
+}
+
+// NAVigation
+.top-bar{
+   display: inline-block;
+   float: right;
+}
+
+.head-placeholder{
+   height: 78px;
+   width: 100%;
+}
+
+@media (max-width: 950px){
+   header#header{
+      .main-container{
+         padding: 10px 0;
+         .site-branding{
+            display: table;
+            margin: 0px auto;
+            p.site-title{
+               float: left;
+            }
+         }
+         .top-bar{
+            display: table;
+            float: none;
+            margin: 0 auto;
+         }
+      }
+   }
+}
+
+@media (max-width: 720px){
+   p.site-title{
+      float: left;
+   }
+   .head-placeholder{
+      height: 0px;
+      width: 100%;
+   }
+
+}
+
+// mobil logo
+#mobile-logo{
+   p.site-title{
+      color: $maincolor;
+      span{
+         color: white;
+      }
+   }
+}
+
+
+// *************************
+// footer
+// *************************
+
+// *************************
+// section
+// *************************
+#szolgaltatasok-section{
+}
 
 #szolgaltatasok-section,
 #flotta-section,
@@ -30,13 +115,15 @@
 #kapcsolat-section{
    width: 100%;
    height: 400px;
+   min-height: 400px;
    background: rgb(125, 224, 255);
    border: 1px solid rgb(0, 194, 255);
 }
 
 // smooth scrolling
 .menu-item a.mPS2id-highlight {
-   border: 1px solid rgb(0, 194, 255);}
+   color: $text;
+}
 
 a:focus {
 	outline: none;

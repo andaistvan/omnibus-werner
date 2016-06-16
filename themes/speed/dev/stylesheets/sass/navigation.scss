@@ -1,0 +1,77 @@
+// MAIN NAV
+header{
+   .top-bar{
+      padding: 0px;
+      background: none;
+      ul{
+         background: none;
+      }
+   }
+}
+
+div#top-bar-right{
+   padding: 0px;
+   ul{
+      padding: 0px;
+      margin: 35px 0 0 0;
+      li{
+         a{
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 0 17px;
+         }
+      }
+      li:last-child{
+         a{
+            padding-right: 0px;
+         }
+      }
+      li:first-child{
+         a{
+            padding-left: 0px;
+         }
+      }
+   }
+}
+
+@media (max-width: 950px){
+   div#top-bar-right{
+      ul{
+         padding: 0px;
+         margin: 0px;
+      }
+   }
+}
+
+
+// shitnav
+
+// shiftnav bar
+div#shiftnav-toggle-main{
+   position: fixed;
+    top: 0;
+    left: 0;
+    height: 78px !important;
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    z-index: 500000;
+    text-align: center;
+    background: #1D1D20;
+    color: #eee;
+}
+
+.shiftnav .shiftnav-menu-title{
+   color: $maincolor !important;
+   text-transform: uppercase;
+   span{
+      text-transform: lowercase;
+      color: $text;
+   }
+}
+
+#shiftnav-toggle-main.shiftnav-toggle-edge-right.shiftnav-toggle-main-entire-bar:before{
+   padding-top: 30px;
+}

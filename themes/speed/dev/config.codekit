@@ -4203,6 +4203,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/img\/head-image01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 321243,
+		"inputAbbreviatedPath": "\/img\/head-image01.jpg",
+		"outputAbbreviatedPath": "\/img\/head-image01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/main.css": {
 		"fileType": 16,
 		"ignore": 1,

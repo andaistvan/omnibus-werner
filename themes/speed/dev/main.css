@@ -2127,26 +2127,134 @@ p {
   font-size: 16px;
   line-height: 25px; }
 
+a {
+  color: #67acbc; }
+
+a:hover {
+  color: #454545; }
+
 /*--------------------------------------------------------------
 # navigation
 --------------------------------------------------------------*/
+header .top-bar {
+  padding: 0px;
+  background: none; }
+  header .top-bar ul {
+    background: none; }
+
+div#top-bar-right {
+  padding: 0px; }
+  div#top-bar-right ul {
+    padding: 0px;
+    margin: 35px 0 0 0; }
+    div#top-bar-right ul li a {
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 0 17px; }
+    div#top-bar-right ul li:last-child a {
+      padding-right: 0px; }
+    div#top-bar-right ul li:first-child a {
+      padding-left: 0px; }
+
+@media (max-width: 950px) {
+  div#top-bar-right ul {
+    padding: 0px;
+    margin: 0px; } }
+div#shiftnav-toggle-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 78px !important;
+  width: 100% !important;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  z-index: 500000;
+  text-align: center;
+  background: #1D1D20;
+  color: #eee; }
+
+.shiftnav .shiftnav-menu-title {
+  color: #67acbc !important;
+  text-transform: uppercase; }
+  .shiftnav .shiftnav-menu-title span {
+    text-transform: lowercase;
+    color: #454545; }
+
+#shiftnav-toggle-main.shiftnav-toggle-edge-right.shiftnav-toggle-main-entire-bar:before {
+  padding-top: 30px; }
+
 /*--------------------------------------------------------------
 # site modules
 --------------------------------------------------------------*/
-.sticky-container {
-  width: 100%; }
+.site-content {
+  margin-top: -15px; }
 
-.sticky {
-  width: 100%; }
-
-.header {
-  width: 100%; }
+.clear {
+  clear: both; }
 
 .guide {
   border: 1px solid #008CBA; }
 
-.clear {
-  clear: both; }
+.main-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: table; }
+
+header#header {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background: white;
+  height: 78px; }
+
+.site-branding {
+  display: inline-block;
+  margin: 25px 0 0 0; }
+
+p.site-title {
+  text-align: left; }
+  p.site-title a {
+    font-weight: 500;
+    color: #67acbc;
+    text-transform: capitalize;
+    font-size: 30px; }
+    p.site-title a span {
+      color: #454545; }
+
+.top-bar {
+  display: inline-block;
+  float: right; }
+
+.head-placeholder {
+  height: 78px;
+  width: 100%; }
+
+@media (max-width: 950px) {
+  header#header .main-container {
+    padding: 10px 0; }
+    header#header .main-container .site-branding {
+      display: table;
+      margin: 0px auto; }
+      header#header .main-container .site-branding p.site-title {
+        float: left; }
+    header#header .main-container .top-bar {
+      display: table;
+      float: none;
+      margin: 0 auto; } }
+@media (max-width: 720px) {
+  p.site-title {
+    float: left; }
+
+  .head-placeholder {
+    height: 0px;
+    width: 100%; } }
+#mobile-logo p.site-title {
+  color: #67acbc; }
+  #mobile-logo p.site-title span {
+    color: white; }
 
 #szolgaltatasok-section,
 #flotta-section,
@@ -2155,11 +2263,12 @@ p {
 #kapcsolat-section {
   width: 100%;
   height: 400px;
+  min-height: 400px;
   background: #7de0ff;
   border: 1px solid #00c2ff; }
 
 .menu-item a.mPS2id-highlight {
-  border: 1px solid #00c2ff; }
+  color: #454545; }
 
 a:focus {
   outline: none; }
