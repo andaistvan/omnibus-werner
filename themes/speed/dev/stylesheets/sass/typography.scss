@@ -1,1 +1,42 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,500,700&subset=latin,latin-ext);
+
+body{
+   font-family: 'Raleway', sans-serif;
+   color: white;
+}
+
+h1{
+   font-size: 32px;
+   font-weight: bold;
+   letter-spacing: 0.92px;
+   text-transform: uppercase;
+}
+
+h2{
+   font-size: 32px;
+   font-weight: bold;
+   letter-spacing: 0.92px;
+   text-transform: uppercase;
+}
+
+h3{
+   font-size: 30px;
+   font-weight: 500;
+   text-transform: lowercase;
+}
+
+h4{
+   font-size: 28px;
+   color: $maincolor;
+   text-transform: uppercase;
+   span{
+      text-transform: lowercase;
+      color: $text;
+   }
+}
+
+p{
+   font-size: 16px;
+   line-height: 25px;
+}
