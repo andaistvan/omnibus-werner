@@ -1,6 +1,6 @@
 <a id="partnereink"></a>
 
-   <div id="partnereink">
+   <div id="partnereink-section">
       <div class="row">
          <div class="medium-4 columns">
             <h2>partnereink</h2>

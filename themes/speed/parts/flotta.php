@@ -1,6 +1,6 @@
 <a id="flotta"></a>
 
-   <div id="flotta">
+   <div id="flotta-section">
       <div class="row">
          <div class="medium-4 columns">
             flotta

@@ -22,23 +22,12 @@
    clear: both;
 }
 
-.homeslider-cont{
-   width: 100%;
-   height: 300px;
-   margin-top: 30px;
-   background: $temp-blue;
-   h1{
-      color: white;
-      margin-left: 50px;
-      padding-top: 50px;
-   }
-}
 
-#szolgaltatasaink,
-#flotta,
-#partnereink,
-#rolunk,
-#kapcsolat{
+#szolgaltatasok-section,
+#flotta-section,
+#partnereink-section,
+#rolunk-section,
+#kapcsolat-section{
    width: 100%;
    height: 400px;
    background: rgb(125, 224, 255);
