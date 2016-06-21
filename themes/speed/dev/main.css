@@ -2539,7 +2539,8 @@ ul.partner-logo-cont {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  list-style: none; }
+  list-style: none;
+  padding: 20px 0; }
   ul.partner-logo-cont li {
     padding: 10px 20px; }
   ul.partner-logo-cont li:last-child {
@@ -2689,11 +2690,27 @@ ul.partner-logo-cont {
       width: 100%;
       padding: 0; } }
 #kapcsolat-form-cont {
-  height: 350px;
+  height: auto;
   background-image: url(img/head-form.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  padding: 50px 0; }
+
+.form-first-row-cont {
+  margin-top: 10px; }
+
+#ninja_forms_field_9 {
+  height: 200px; }
+
+input#ninja_forms_field_6.ninja-forms-field {
+  background: #67acbc;
+  box-shadow: none;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  display: table; }
 
 /*--------------------------------------------------------------
 # widgets

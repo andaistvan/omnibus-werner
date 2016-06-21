@@ -385,6 +385,7 @@ ul.partner-logo-cont{
    justify-content: center;
    align-items: center;
    list-style: none;
+   padding: 20px 0;
    li{
       padding: 10px 20px;
    }
@@ -508,9 +509,32 @@ ul.partner-logo-cont{
 // kapcsolat / form cont
 // *************************
 #kapcsolat-form-cont{
-   height: 350px;
+   height: auto;
    background-image: url(img/head-form.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
+   padding: 50px 0;
+}
+
+// *************************
+// kapcsolat / ninja form
+// *************************
+
+.form-first-row-cont{
+   margin-top: 10px;
+}
+
+#ninja_forms_field_9{ //message
+   height: 200px;
+}
+
+input#ninja_forms_field_6.ninja-forms-field{ //submnit
+   background: $maincolor;
+   box-shadow: none;
+   border: none;
+   padding: 10px;
+   text-align: center;
+   margin: 0 auto;
+   display: table;
 }
