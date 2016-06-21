@@ -4203,6 +4203,28 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/img\/head-flotta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 355732,
+		"inputAbbreviatedPath": "\/img\/head-flotta.jpg",
+		"outputAbbreviatedPath": "\/img\/head-flotta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/head-form.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234390,
+		"inputAbbreviatedPath": "\/img\/head-form.jpg",
+		"outputAbbreviatedPath": "\/img\/head-form.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/head-image01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4210,6 +4232,116 @@
 		"initialSize": 321243,
 		"inputAbbreviatedPath": "\/img\/head-image01.jpg",
 		"outputAbbreviatedPath": "\/img\/head-image01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/head-image02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27749,
+		"inputAbbreviatedPath": "\/img\/head-image02.jpg",
+		"outputAbbreviatedPath": "\/img\/head-image02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/head-rolunk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 433085,
+		"inputAbbreviatedPath": "\/img\/head-rolunk.jpg",
+		"outputAbbreviatedPath": "\/img\/head-rolunk.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/irisbus-evadys-h.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393020,
+		"inputAbbreviatedPath": "\/img\/irisbus-evadys-h.jpg",
+		"outputAbbreviatedPath": "\/img\/irisbus-evadys-h.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/irisbus-evadys-hd.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364120,
+		"inputAbbreviatedPath": "\/img\/irisbus-evadys-hd.jpg",
+		"outputAbbreviatedPath": "\/img\/irisbus-evadys-hd.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/noge-eurorider.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 665067,
+		"inputAbbreviatedPath": "\/img\/noge-eurorider.jpg",
+		"outputAbbreviatedPath": "\/img\/noge-eurorider.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/partner-logok\/partner-eurolines.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6514,
+		"inputAbbreviatedPath": "\/img\/partner-logok\/partner-eurolines.jpg",
+		"outputAbbreviatedPath": "\/img\/partner-logok\/partner-eurolines.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/partner-logok\/partner-honibusz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4824,
+		"inputAbbreviatedPath": "\/img\/partner-logok\/partner-honibusz.jpg",
+		"outputAbbreviatedPath": "\/img\/partner-logok\/partner-honibusz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/partner-logok\/partner-omnex.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5457,
+		"inputAbbreviatedPath": "\/img\/partner-logok\/partner-omnex.jpg",
+		"outputAbbreviatedPath": "\/img\/partner-logok\/partner-omnex.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/partner-logok\/partner-volanbusz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4591,
+		"inputAbbreviatedPath": "\/img\/partner-logok\/partner-volanbusz.jpg",
+		"outputAbbreviatedPath": "\/img\/partner-logok\/partner-volanbusz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/partner-logok\/partner-werner-reisen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5623,
+		"inputAbbreviatedPath": "\/img\/partner-logok\/partner-werner-reisen.jpg",
+		"outputAbbreviatedPath": "\/img\/partner-logok\/partner-werner-reisen.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

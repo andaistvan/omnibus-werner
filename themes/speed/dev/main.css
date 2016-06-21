@@ -2117,6 +2117,7 @@ h3 {
 
 h4 {
   font-size: 28px;
+  text-align: center;
   color: #67acbc;
   text-transform: uppercase; }
   h4 span {
@@ -2256,22 +2257,443 @@ p.site-title {
   #mobile-logo p.site-title span {
     color: white; }
 
-#szolgaltatasok-section,
-#flotta-section,
-#partnereink-section,
-#rolunk-section,
-#kapcsolat-section {
-  width: 100%;
-  height: 400px;
-  min-height: 400px;
-  background: #7de0ff;
-  border: 1px solid #00c2ff; }
-
 .menu-item a.mPS2id-highlight {
   color: #454545; }
 
 a:focus {
   outline: none; }
+
+#szolgaltatasok-section {
+  height: 596px;
+  background-image: url(img/head-image01.jpg);
+  background-repeat: no-repeat;
+  background-position: right; }
+
+#szolg-cont {
+  width: 100%;
+  height: 596px; }
+
+div.szolg01 {
+  width: 34%;
+  height: 298px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  background: #67acbc;
+  filter: alpha(opacity=80);
+  /* IE */
+  -moz-opacity: 0.8;
+  /* Mozilla */
+  opacity: 0.8;
+  /* CSS3 */
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+div.szolg02 {
+  width: 66%;
+  height: 298px;
+  float: left; }
+
+@media (max-width: 970px) {
+  div.szolg01 {
+    width: 50%; }
+
+  div.szolg02 {
+    width: 50%; } }
+div.szolg03 {
+  width: 34%;
+  height: 298px;
+  background-image: url(img/head-image02.jpg);
+  background-size: cover;
+  float: left; }
+
+div.szolg04 {
+  float: left;
+  width: 66%;
+  height: 298px;
+  background: #333333;
+  filter: alpha(opacity=80);
+  /* IE */
+  -moz-opacity: 0.8;
+  /* Mozilla */
+  opacity: 0.8;
+  /* CSS3 */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+  -webkit-align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 50px; }
+
+@media (max-width: 900px) {
+  #szolgaltatasok-section {
+    height: 400px; }
+
+  div.szolg01,
+  div.szolg02,
+  div.szolg03,
+  div.szolg04 {
+    height: 200px; }
+
+  div.szolg01 {
+    width: 100%; }
+    div.szolg01 h1 {
+      text-align: center; }
+
+  div.szolg02 {
+    display: none; }
+
+  div.szolg03 {
+    display: none; }
+
+  div.szolg04 {
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center; }
+    div.szolg04 h3 {
+      text-align: center; } }
+#szolg-bottom-cont {
+  padding: 30px 0; }
+
+p.szolg {
+  color: #454545;
+  text-align: center; }
+
+a h4:hover {
+  color: #454545;
+  -webkit-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in; }
+
+#flotta-section {
+  background-image: url(img/head-flotta.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover; }
+
+.flotta-head-cont {
+  width: 100%;
+  background: #333333;
+  filter: alpha(opacity=90);
+  /* IE */
+  -moz-opacity: 0.9;
+  /* Mozilla */
+  opacity: 0.9;
+  /* CSS3 */
+  padding: 25px 0;
+  margin: 0 0 3px 0; }
+  .flotta-head-cont h2 {
+    text-align: center; }
+
+.flotta-row {
+  background: #333333;
+  filter: alpha(opacity=90);
+  /* IE */
+  -moz-opacity: 0.9;
+  /* Mozilla */
+  opacity: 0.9;
+  /* CSS3 */
+  margin: 0 0 3px 0;
+  height: 280px; }
+
+.flotta-row-last {
+  background: #333333;
+  filter: alpha(opacity=90);
+  /* IE */
+  -moz-opacity: 0.9;
+  /* Mozilla */
+  opacity: 0.9;
+  /* CSS3 */
+  margin: 0;
+  height: 280px; }
+
+.flotta-image-cont {
+  width: 40%;
+  height: 280px;
+  float: left; }
+
+.flotta-data {
+  width: 60%;
+  height: 280px;
+  float: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .flotta-data p {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.5; }
+
+#irisbus-evadys-h {
+  background-image: url(img/irisbus-evadys-h.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+#irisbus-evadys-hd {
+  background-image: url(img/irisbus-evadys-hd.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+#noge-eurorider {
+  background-image: url(img/noge-eurorider.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+@media (max-width: 940px) {
+  .flotta-image-cont {
+    width: 50%; }
+
+  .flotta-data {
+    width: 50%; } }
+@media (max-width: 550px) {
+  .flotta-row {
+    height: auto; }
+
+  .flotta-row-last {
+    height: auto; }
+
+  .flotta-image-cont {
+    display: table;
+    float: none;
+    width: 90%;
+    margin: 0 auto; }
+
+  .flotta-data {
+    display: block;
+    float: none;
+    width: 100%;
+    padding: 20px 0 10px 0;
+    height: auto; } }
+#partnereink-section {
+  background: white; }
+
+.partnereink-head-cont {
+  background: #67acbc; }
+  .partnereink-head-cont h2 {
+    text-align: center;
+    padding: 25px 0;
+    margin: 0; }
+
+ul.partner-logo-cont {
+  width: 100%;
+  margin: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none; }
+  ul.partner-logo-cont li {
+    padding: 10px 20px; }
+  ul.partner-logo-cont li:last-child {
+    padding: 10px 30px 10px 20px; }
+
+#rolunk-section {
+  background-image: url(img/head-rolunk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#rolunk-cont {
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  #rolunk-cont .rolunk-col1 {
+    width: 34%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    float: left;
+    background: #67acbc;
+    filter: alpha(opacity=80);
+    /* IE */
+    -moz-opacity: 0.8;
+    /* Mozilla */
+    opacity: 0.8;
+    /* CSS3 */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  #rolunk-cont .rolunk-col2 {
+    width: 66%;
+    height: auto;
+    float: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #333333;
+    filter: alpha(opacity=90);
+    /* IE */
+    -moz-opacity: 0.9;
+    /* Mozilla */
+    opacity: 0.9;
+    /* CSS3 */
+    padding: 30px; }
+    #rolunk-cont .rolunk-col2 p {
+      text-align: left;
+      line-height: 1.5; }
+
+@media (max-width: 650px) {
+  #rolunk-cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    #rolunk-cont .rolunk-col1 {
+      display: block;
+      width: 100%; }
+      #rolunk-cont .rolunk-col1 h2 {
+        text-align: center;
+        padding: 20px 0 10px 0; }
+    #rolunk-cont .rolunk-col2 {
+      display: block;
+      width: 100%; } }
+.kapcsolat-data-cont {
+  background: white;
+  color: #454545;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  padding: 40px 0; }
+  .kapcsolat-data-cont .kapcsolat-col1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 34%; }
+    .kapcsolat-data-cont .kapcsolat-col1 h2 {
+      padding: 0; }
+  .kapcsolat-data-cont .kapcsolat-col2,
+  .kapcsolat-data-cont .kapcsolat-col3 {
+    width: 33%;
+    padding-left: 10px; }
+    .kapcsolat-data-cont .kapcsolat-col2 p.bold,
+    .kapcsolat-data-cont .kapcsolat-col3 p.bold {
+      font-weight: bold; }
+
+@media (max-width: 850px) {
+  .kapcsolat-data-cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center; }
+    .kapcsolat-data-cont .kapcsolat-col1,
+    .kapcsolat-data-cont .kapcsolat-col2,
+    .kapcsolat-data-cont .kapcsolat-col3 {
+      width: 100%;
+      padding: 0; } }
+#kapcsolat-form-cont {
+  height: 350px;
+  background-image: url(img/head-form.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 /*--------------------------------------------------------------
 # widgets
